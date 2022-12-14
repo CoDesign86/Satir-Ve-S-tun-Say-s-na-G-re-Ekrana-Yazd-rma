@@ -1,0 +1,7 @@
+while input("beşlamak & tekrar denemek ister misin? \n") == "evet" or "olur" or "tamam":
+    satir = int(input("kaç satır olsun? \n"))
+    sutun = int(input("kaç sütun olsun? \n"))
+    for i in range(satir):
+        for k in range(sutun):
+            print("*", end=" ")
+        print()
